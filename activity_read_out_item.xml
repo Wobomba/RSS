@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadOutItem">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"/>
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:layout_marginStart="10dp"/>
+        <Button
+            android:id="@+id/read"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read Out"
+            android:onClick="onClick"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:elevation="10dp"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+</ScrollView>
